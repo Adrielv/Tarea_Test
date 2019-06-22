@@ -64,6 +64,26 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Entidades\PersonasTests.cs" />
+    <Compile Include="Entidades\CargosTests.cs" />
+    <Compile Include="Entidades\CategoriasTests.cs" />
+    <Compile Include="Entidades\ClientesTests.cs" />
+    <Compile Include="Entidades\ComprasTests.cs" />
+    <Compile Include="Entidades\DetalleComprasTests.cs" />
+    <Compile Include="Entidades\DetalleVentaTests.cs" />
+    <Compile Include="Entidades\EmpleadosTests.cs" />
+    <Compile Include="Entidades\EstadosTests.cs" />
+    <Compile Include="Entidades\ImagenesTests.cs" />
+    <Compile Include="Entidades\MarcasTests.cs" />
+    <Compile Include="Entidades\ModelosTests.cs" />
+    <Compile Include="Entidades\PermisosTests.cs" />
+    <Compile Include="Entidades\ProductosTests.cs" />
+    <Compile Include="Entidades\ProvedoresTests.cs" />
+    <Compile Include="Entidades\TipoComprobantesTests.cs" />
+    <Compile Include="Entidades\TipoPersonasTests.cs" />
+    <Compile Include="Entidades\UnidadMedidaTests.cs" />
+    <Compile Include="Entidades\UsuariosTests.cs" />
+    <Compile Include="Entidades\Usuario_has_permisoTests.cs" />
+    <Compile Include="Entidades\VentasTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
