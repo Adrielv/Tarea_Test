@@ -23,24 +23,23 @@ namespace TareaTest.BLL
             Assert.IsTrue(repositorio.Guardar(new Personas()));
         }
 
-       /* [TestMethod()]
+        [TestMethod()]
         public void ModificarTest()
         {
-            Repositorio<Persona> repositorio = new Repositorio<Persona>();
-            bool paso = false;
-            Persona p = repositorio.Buscar(1);
-            p.Nombre = "franchy";
-            paso = repositorio.Modificar(p);
-            Assert.AreEqual(true, paso);
+            Repositorio<Personas> repositorio;
+            repositorio = new Repositorio<Personas>();
+           // Assert.IsTrue(repositorio.Modificar(new Personas(1,1, "Walder", "De Jesus", "Reyes", DateTime.Now, "8091232123", "Walder@walder.com", "M", 1, "Libertad", 1)));
+        
         }
 
         [TestMethod()]
         public void BuscarTest()
         {
-            Repositorio<Persona> repositorio = new Repositorio<Persona>();
-            Persona p = repositorio.Buscar(1);
-            Assert.IsNotNull(p);
-        }
+            Repositorio<Personas> repositorio;
+            repositorio = new Repositorio<Personas>();
+
+            Assert.IsNotNull(repositorio.Buscar(1));
+        }/*
 
         [TestMethod()]
         public void GetListTest()
